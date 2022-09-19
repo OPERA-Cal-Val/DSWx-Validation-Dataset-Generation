@@ -12,6 +12,14 @@ ES_USERNAME='<JPL USERNAME>'
 ES_PASSWORD='<JPL PASSWORD>'
 ```
 
+In your `~/.netrc`, place earthdata login credentials:
+
+```
+machine urs.earthdata.nasa.gov
+    login <username>
+    password <password>
+```
+
 ## Install
 It is recommended to install `mamba` in the user's base environment to speed up the installation process:
 
