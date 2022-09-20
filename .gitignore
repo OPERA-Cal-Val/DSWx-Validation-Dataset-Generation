@@ -86,3 +86,13 @@ __pycache__/
 # Ignore Experimental Directories
 notebooks/experimental/
 tests/notebooks/
+
+
+# Add new notebooks
+*.ipynb
+!1-Download_Planet_Imagery.ipynb
+!2-Crop_Imagery.ipynb
+!3-Upload_Classification.ipynb
+!4-Download_Classification.ipynb
+!5-Visualize_Status_of_Validation_Datasets.ipynb
+!6-Compare_HLS_and_boundaries (Optional).ipynb
