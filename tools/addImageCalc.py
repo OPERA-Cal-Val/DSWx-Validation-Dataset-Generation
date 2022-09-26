@@ -24,7 +24,7 @@ def addImageCalc(filePaths, metaData, awsSession):
         if not os.path.isfile(filePaths[key]):
             sys.exit('File does not exist or path is incorrect: '+filePaths[key])
 
-        s3_key_pending = 'pending/files/'+metaData['image_calc_name']+'/'+filePaths[key].split('/')[-1]
+        s3_key_pending = 'pending/files/'+now+'_imagecalc/'+filePaths[key].split('/')[-1]
         s3_keys.append(s3_key_pending)
     bucket_name_staging = 'opera-calval-database-dswx-staging'
     metaData['bucket'] = bucket_name_staging
