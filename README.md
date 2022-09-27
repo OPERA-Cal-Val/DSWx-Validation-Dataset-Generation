@@ -42,7 +42,10 @@ After activatating
 1. Create a branch from dev and create a pull request.
 2. Do you development.
 3. Make sure to run before you commit:
-   ```jupyter nbconvert --ClearOutputPreprocessor.enabled=True --ClearMetadataPreprocessor.enabled=True --inplace *.ipynb``
-    This will clear ouput and metadata (including when you executed your notebook)
+
+   ```jupyter nbconvert --ClearOutputPreprocessor.enabled=True --ClearMetadataPreprocessor.enabled=True --inplace *.ipynb```
+
+    This will clear ouput and metadata (including when you executed your notebook) for easier version control.
+
 4. Have another member review.
 5. Make sure to clear your outputs for better version control.
