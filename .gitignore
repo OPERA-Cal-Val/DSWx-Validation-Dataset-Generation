@@ -83,9 +83,9 @@ __pycache__/
 # Ignore json
 *.json
 
-# Ignore Experimental Directories
-notebooks/experimental/
-tests/notebooks/
+# Data directories
+data/
+planet_images_cropped/
 
 
 # Add new notebooks
