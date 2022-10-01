@@ -91,7 +91,8 @@ tests/notebooks/
 # Add new notebooks
 *.ipynb
 !1-Download_Planet_Imagery.ipynb
-!2-Crop_Imagery.ipynb
+!2a-Crop_Imagery.ipynb
+!2b-Crop_Imagery_Manual.ipynb
 !3-Upload_Classification.ipynb
 !4-Download_Classification.ipynb
 !5-Visualize_Status_of_Validation_Datasets.ipynb
