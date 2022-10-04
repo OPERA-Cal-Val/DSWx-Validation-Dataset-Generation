@@ -71,6 +71,9 @@ __pycache__/
 # Log files
 *.log
 
+# CSV files
+*.csv
+
 # Pickle Data
 *.pkl
 
@@ -83,9 +86,9 @@ __pycache__/
 # Ignore json
 *.json
 
-# Ignore Experimental Directories
-notebooks/experimental/
-tests/notebooks/
+# Data directories
+data/
+planet_images_cropped/
 
 
 # Add new notebooks
