@@ -1,0 +1,16 @@
+<GMLFeatureClassList>
+  <GMLFeatureClass>
+    <Name>Polygon</Name>
+    <ElementPath>Polygon</ElementPath>
+    <GeometryType>100</GeometryType>
+    <DatasetSpecificInfo>
+      <FeatureCount>1</FeatureCount>
+    </DatasetSpecificInfo>
+    <PropertyDefn>
+      <Name>coordinates</Name>
+      <ElementPath>outerBoundaryIs|LinearRing|coordinates</ElementPath>
+      <Type>String</Type>
+      <Width>177</Width>
+    </PropertyDefn>
+  </GMLFeatureClass>
+</GMLFeatureClassList>
