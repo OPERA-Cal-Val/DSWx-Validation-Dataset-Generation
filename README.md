@@ -2,6 +2,10 @@
 
 Instuctions TBD
 
+## Example image classification workflow
+
+https://github.com/OPERA-Cal-Val/DSWx-SCP-validation-generation
+
 ## Setup
 
 A `.env` file should have the following information:
@@ -35,7 +39,6 @@ From this repo:
 After activatating
 
 `python -m ipykernel install --user --name dswx_val`
-
 
 ## Contributing
 
