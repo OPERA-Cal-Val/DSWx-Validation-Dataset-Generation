@@ -101,4 +101,5 @@ planet_images_cropped/
 !5-Visualize_Status_of_Validation_Datasets.ipynb
 !6-Compare_HLS_and_boundaries (Optional).ipynb
 !7-Package_DSWx_Database.ipynb
+!8-Commit-Staged-ImageCalc.ipynb
 !a-Planet_Indices_and_Thresholds.ipynb
